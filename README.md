@@ -19,3 +19,11 @@ The goal is not immortality of the body — but continuity of rational conscious
 
 ## Contact
 krisstern9@gmail.com
+
+## Usage
+
+```python
+analyzer = RationalityAnalyzer()
+text = "Your text here"
+result = analyzer.analyze(text)
+print(f"Rationality score: {result['rationality_score']}%")
